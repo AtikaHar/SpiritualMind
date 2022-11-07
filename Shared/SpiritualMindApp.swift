@@ -11,7 +11,7 @@ import SwiftUI
 struct SpiritualMindApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(cards: cards[1])
         }
     }
 }

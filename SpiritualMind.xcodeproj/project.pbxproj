@@ -13,6 +13,10 @@
 		4DB890CD29167DFD00ECD72A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB890BB29167DFB00ECD72A /* ContentView.swift */; };
 		4DB890CE29167DFD00ECD72A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB890BC29167DFD00ECD72A /* Assets.xcassets */; };
 		4DB890CF29167DFD00ECD72A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB890BC29167DFD00ECD72A /* Assets.xcassets */; };
+		4DB890DA2916D38100ECD72A /* DancingScript-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DB890D92916D38100ECD72A /* DancingScript-VariableFont_wght.ttf */; };
+		4DB890DC2916D3BC00ECD72A /* GreatVibes-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DB890DB2916D3BB00ECD72A /* GreatVibes-Regular.ttf */; };
+		4DB890E02916DB6400ECD72A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB890DF2916DB6400ECD72A /* Data.swift */; };
+		4DB890E22916DB7C00ECD72A /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB890E12916DB7B00ECD72A /* CardModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +25,11 @@
 		4DB890BC29167DFD00ECD72A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DB890C129167DFD00ECD72A /* SpiritualMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiritualMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB890C729167DFD00ECD72A /* SpiritualMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiritualMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DB890C929167DFD00ECD72A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4DB890D92916D38100ECD72A /* DancingScript-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		4DB890DB2916D3BB00ECD72A /* GreatVibes-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GreatVibes-Regular.ttf"; sourceTree = "<group>"; };
+		4DB890DD2916D62200ECD72A /* SpiritualMind--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SpiritualMind--iOS--Info.plist"; sourceTree = "<group>"; };
+		4DB890DF2916DB6400ECD72A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		4DB890E12916DB7B00ECD72A /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,8 +53,8 @@
 		4DB890B429167DFB00ECD72A = {
 			isa = PBXGroup;
 			children = (
+				4DB890DD2916D62200ECD72A /* SpiritualMind--iOS--Info.plist */,
 				4DB890B929167DFB00ECD72A /* Shared */,
-				4DB890C829167DFD00ECD72A /* macOS */,
 				4DB890C229167DFD00ECD72A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,7 +64,9 @@
 			children = (
 				4DB890BA29167DFB00ECD72A /* SpiritualMindApp.swift */,
 				4DB890BB29167DFB00ECD72A /* ContentView.swift */,
+				4DB890D82916D33C00ECD72A /* fonts */,
 				4DB890BC29167DFD00ECD72A /* Assets.xcassets */,
+				4DB890DE2916DB5400ECD72A /* Models */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -70,12 +80,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4DB890C829167DFD00ECD72A /* macOS */ = {
+		4DB890D82916D33C00ECD72A /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				4DB890C929167DFD00ECD72A /* macOS.entitlements */,
+				4DB890D92916D38100ECD72A /* DancingScript-VariableFont_wght.ttf */,
+				4DB890DB2916D3BB00ECD72A /* GreatVibes-Regular.ttf */,
 			);
-			path = macOS;
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		4DB890DE2916DB5400ECD72A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DB890DF2916DB6400ECD72A /* Data.swift */,
+				4DB890E12916DB7B00ECD72A /* CardModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +178,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DB890CE29167DFD00ECD72A /* Assets.xcassets in Resources */,
+				4DB890DA2916D38100ECD72A /* DancingScript-VariableFont_wght.ttf in Resources */,
+				4DB890DC2916D3BC00ECD72A /* GreatVibes-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DB890CC29167DFD00ECD72A /* ContentView.swift in Sources */,
+				4DB890E22916DB7C00ECD72A /* CardModel.swift in Sources */,
+				4DB890E02916DB6400ECD72A /* Data.swift in Sources */,
 				4DB890CA29167DFD00ECD72A /* SpiritualMindApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +336,7 @@
 				DEVELOPMENT_TEAM = 79Q9KLMQWT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SpiritualMind--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -342,6 +367,7 @@
 				DEVELOPMENT_TEAM = 79Q9KLMQWT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SpiritualMind--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
