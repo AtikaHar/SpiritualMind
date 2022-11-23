@@ -9,12 +9,5 @@ import Foundation
 import SwiftUI
 
 
-struct Card : Identifiable {
-    
-    var id = UUID()
-    var picture : String
-    var borderColor : Color
-    var thought : String
-    var source : String
-}
+
 

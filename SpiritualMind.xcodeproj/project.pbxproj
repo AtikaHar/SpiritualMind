@@ -27,7 +27,6 @@
 		4DB890C729167DFD00ECD72A /* SpiritualMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiritualMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB890D92916D38100ECD72A /* DancingScript-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		4DB890DB2916D3BB00ECD72A /* GreatVibes-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GreatVibes-Regular.ttf"; sourceTree = "<group>"; };
-		4DB890DD2916D62200ECD72A /* SpiritualMind--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SpiritualMind--iOS--Info.plist"; sourceTree = "<group>"; };
 		4DB890DF2916DB6400ECD72A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		4DB890E12916DB7B00ECD72A /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,7 +52,6 @@
 		4DB890B429167DFB00ECD72A = {
 			isa = PBXGroup;
 			children = (
-				4DB890DD2916D62200ECD72A /* SpiritualMind--iOS--Info.plist */,
 				4DB890B929167DFB00ECD72A /* Shared */,
 				4DB890C229167DFD00ECD72A /* Products */,
 			);
@@ -337,7 +335,6 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SpiritualMind--iOS--Info.plist";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -368,7 +365,6 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SpiritualMind--iOS--Info.plist";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
